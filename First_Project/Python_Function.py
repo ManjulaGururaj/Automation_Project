@@ -6,15 +6,18 @@ def sub(a,b):
     return a-b
 
 
-def mul(a,b,c):
-    return a*b*c
+def mul(a,b):
+    return a*b
 
 
 def div(a,b):
     return a/b
 
-def add(a,b,c):
+def addsub(a,b,c):
     return a+b-c
 
-def sub(a,b,c):
+def submul(a,b,c):
     return a-b*c
+
+def adddiv(a,b,c):
+    return a+b/2
